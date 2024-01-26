@@ -1,3 +1,4 @@
+pwd: lihat directory active sekarang
 cd [path]: untuk ganti directory active
 ls: list semua file yang ada di directory active
 git init: untuk mengubah folder menjadi repository git

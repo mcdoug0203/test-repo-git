@@ -1,0 +1,13 @@
+cd [path]: untuk ganti directory active
+ls: list semua file yang ada di directory active
+git init: untuk mengubah folder menjadi repository git
+git status: cek status repo
+git add [file]: tambah file ke staging
+git add .: tambah semua file ke staging
+git commit -m [catatan]: commit semua file di staging dan simpan catatan
+git config --global user.email "[email]": ganti email default global
+git config --global user.name "[name]": ganti username default global
+git log: lihat semua commit
+git log -[angka]: lihat commit sebanyak [angka] terakhir
+git log -- [file]: lihat commit yg ngaruh [file]
+git checkout [5 hash terdepan] -- [file]: kembalikan perubahan yg terjadi pada [file] ke commit yg ada di [hash] ke staging (contoh: git checkout 3121f -- style.css)

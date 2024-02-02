@@ -8,6 +8,7 @@ git add .: tambah semua file ke staging
 git commit -m [catatan]: commit semua file di staging dan simpan catatan
 git config --global user.email "[email]": ganti email default global
 git config --global user.name "[name]": ganti username default global
+git config --local user.name atau user.email: ganti username/email untuk repo ini saja
 git log: lihat semua commit
 git log -[angka]: lihat commit sebanyak [angka] terakhir
 git log -- [file]: lihat commit yg ngaruh [file]
